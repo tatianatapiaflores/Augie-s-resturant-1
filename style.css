@@ -1,0 +1,109 @@
+
+
+* {
+    margin: 0px;
+    padding: 6px;
+    color: white;
+    background-color: black;
+    font-family: 'lobster', cursive;
+    @media only screen and (max-width: 700px){
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+body {
+   color: black;
+}
+
+header {
+    background-attachment: fixed;
+    color: white;
+   display: flex;
+    width: 90%;
+    font-size: 25px;   
+    margin: auto;
+    align-items: center;
+}
+.title {
+    flex: 1;
+    font-weight:400;
+}
+nav {
+    display: flex;
+    flex: 1;
+    justify-content: space-around
+}
+.links{
+    list-style: none;
+    text-decoration: none;
+}
+.links-button {
+    font-weight: 400;
+    margin: 25px;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.links-button, .links, .nav{
+    display: flex;
+    font-weight: 400;
+}
+.ourStory{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutMe{
+    flex: 1;
+    background-color: yellowgreen;
+}
+.aboutPhoto{
+    flex: 1;
+}
+.specials{
+    display: flex;
+    justify-content: space-around ;
+    font-size: 25px;  
+}
+.button{
+    text-align: right;
+}
+h3 {
+    font-size: 45px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
+img{
+    border-radius: 25%;
+}
+.weeks {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ 
+}
+.weekly{
+    justify-content: space-around;
+}
+.monday {
+    orientation: center;
+    flex: 2;   
+}
+.tuesday {
+    flex: 2;
+
+}
+.friday {
+    flex: 1;
+}
+.all {
+    justify-content: space-evenly;
+    display: flex;
+}
+.contact {
+    justify-content: space-around;
+}
