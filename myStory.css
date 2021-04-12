@@ -1,0 +1,58 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'lobster', cursive;
+}
+.aboutme{
+    font-size: 15px;
+}
+
+h3{
+    color: black;
+}
+header {
+    background-attachment: fixed;
+    color: black;
+   display: flex;
+    width: 90%;
+    font-size: 25px;   
+    margin: auto;
+    align-items: center;
+    background-image: url("background peppers.jpg");
+    background-size: contain;
+}
+.title {
+    flex: 1;
+    font-weight:400;
+  
+}
+nav {
+    
+    display: flex;
+    flex: 1;
+    justify-content: space-around
+    
+}
+.links{
+    list-style: none;
+    text-decoration: none;
+    
+}
+.links-button {
+    font-weight: 400;
+    margin: 25px;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.links-button, .links, .nav{
+    display: flex;
+    font-weight: 400;
+   
+    
+}
+.story{
+    
+}
+
